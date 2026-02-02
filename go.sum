@@ -1,2 +1,4 @@
+github.com/evanmschultz/hylla-fixture-go-2 v0.0.0-20260202003631-8da40bf8e5ad h1:ZJpPZZI779XWZ2xLTjYtFSuoEmnUyIK5SlenFaBewwM=
+github.com/evanmschultz/hylla-fixture-go-2 v0.0.0-20260202003631-8da40bf8e5ad/go.mod h1:6HbE+aX6LcRlrj4o/DPubazCqpmBeayku+1nnvLiJM8=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
