@@ -18,5 +18,5 @@ func FormatGreetingWithPrefix(name, prefix string) string {
 	if cleanPrefix == "" {
 		cleanPrefix = "beta"
 	}
-	return fmt.Sprintf("[%s] %s", cleanPrefix, alpha.Hello(name))
+	return fmt.Sprintf("[%s] %s", cleanPrefix, alpha.Hello(alpha.NormalizeName(name)))
 }
