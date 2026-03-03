@@ -13,12 +13,17 @@ type Greeter struct {
 	Prefix string
 }
 
+// NormalizeName returns a canonical greeting target for fixtures.
+func NormalizeName(name string) string {
+	if strings.TrimSpace(name) == "" {
+		return "world"
+	}
+	return name
+}
+
 // Hello returns a greeting for the provided name.
 func Hello(name string) string {
-	if strings.TrimSpace(name) == "" {
-		name = "world"
-	}
-	return DefaultPrefix + " " + name
+	return DefaultPrefix + " " + NormalizeName(name)
 }
 
 // Shout returns an uppercased greeting for the provided name.
@@ -27,8 +32,5 @@ func (g Greeter) Shout(name string) string {
 	if prefix == "" {
 		prefix = DefaultPrefix
 	}
-	if strings.TrimSpace(name) == "" {
-		name = "world"
-	}
-	return strings.ToUpper(prefix + " " + name)
+	return strings.ToUpper(prefix + " " + NormalizeName(name))
 }
