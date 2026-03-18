@@ -15,6 +15,8 @@ production library. It exists so Hylla can:
   Hylla can verify snapshot diffs.
 - **Failure cases**: Introduce controlled syntax or build failures in
   isolated branches/commits when needed for negative testing.
+- **Cross-repo multi-module lookups**: Import all canonical modules from
+  `hylla-fixture-go-2` so Hylla can validate source-repo vs artifact identity.
 
 ## What this repo is not
 
@@ -24,6 +26,8 @@ production library. It exists so Hylla can:
 ## Layout
 
 - `pkg/`: Small, intentionally simple Go packages used by tests.
+- `pkg/remote`: Cross-repo calls into the root, nested, and multi-segment
+  nested modules exposed by `hylla-fixture-go-2`.
 
 ## Update rules
 
@@ -44,4 +48,3 @@ and repo updates without polluting the main repo's Git history.
 
 This repo is intentionally small. If you need to add a new fixture scenario,
 open a PR describing the test it supports and the expected graph change.
-
