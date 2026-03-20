@@ -1,4 +1,8 @@
-github.com/evanmschultz/hylla-fixture-go-2 v0.0.0-20260202003631-8da40bf8e5ad h1:ZJpPZZI779XWZ2xLTjYtFSuoEmnUyIK5SlenFaBewwM=
-github.com/evanmschultz/hylla-fixture-go-2 v0.0.0-20260202003631-8da40bf8e5ad/go.mod h1:6HbE+aX6LcRlrj4o/DPubazCqpmBeayku+1nnvLiJM8=
+github.com/evanmschultz/hylla-fixture-go-2 v0.1.0 h1:d2OcI9xQ1XHbT50BGFl8VCMMu0gGmQQyYjfRSmiNhdg=
+github.com/evanmschultz/hylla-fixture-go-2 v0.1.0/go.mod h1:xuFZGeWFmKK5qHe7TTyS5MKIsyn3U5Hh31G/VkqjV9o=
+github.com/evanmschultz/hylla-fixture-go-2/codec v0.1.0 h1:fVvcLTELRBkK+gxDxDUvXXhkn4Xy1dN57qBE4rajX2Y=
+github.com/evanmschultz/hylla-fixture-go-2/codec v0.1.0/go.mod h1:QrivaB6uUEE/vhL/ooK+SRdmAIsMYt9JJGPL83NMn6A=
+github.com/evanmschultz/hylla-fixture-go-2/x/clock v0.1.0 h1:FIOR/RrOBeQzCdFPsQ4GUlnBTVMTpxCYyao0tWVoMrM=
+github.com/evanmschultz/hylla-fixture-go-2/x/clock v0.1.0/go.mod h1:tWVcVu3utirYcMvoV0uP2hetNRuPjPG0LXzKAJL58EU=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
